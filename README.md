@@ -38,5 +38,24 @@ If you use this work, please cite the following paper:
 }
 ```
 
+
+## Software and Hardware Informations
+```
+Python version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]
+CUDA version: 11.7
+PyTorch version: 2.0.1
+GPU model: NVIDIA GeForce RTX 3090 Ti
+CPU model: AMD Ryzen 9 7950X 16-Core Processor
+```
+
+## Environment Configuration
+```
+conda create --name newenv python=3.7
+conda activate newenv
+pip install -r requirements.txt
+
+```
+
 ## About Questions
 If you have any questions, feel free to raise them in the issue section, and we will answer them promptly.
