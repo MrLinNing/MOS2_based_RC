@@ -4,7 +4,7 @@
 
 
 ## Data download
-The original data file `DRIVE` can be downloaded from  [LadderNet](https://github.com/juntang-zhuang/LadderNet). 
+First, you need download the original data `DRIVE` from  [LadderNet](https://github.com/juntang-zhuang/LadderNet). 
 
 
 ## MOS2 Data file is shown as `Slope_of_64.xlsx`
