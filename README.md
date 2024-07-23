@@ -1,4 +1,4 @@
-## 2D Reconfigurable Memory Device Enabled by DefectEngineering for Multifunctional Neuromorphic Computing
+## 2D Reconfigurable Memory Device Enabled by Defect Engineering for Multifunctional Neuromorphic Computing
 
 
 In this era of artificial intelligence and Internet of Things, emerging new computing
