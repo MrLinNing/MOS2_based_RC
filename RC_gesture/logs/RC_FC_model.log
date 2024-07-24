@@ -1,0 +1,117 @@
+Namespace(ARCHI='RC_readout', GPU=1)
+class is ['01_palm', '02_l', '03_fist', '04_fist_moved', '05_thumb', '06_index', '07_ok', '08_palm_moved', '09_c', '10_down']
+{'1111': 8.0, '1110': 5.0, '0111': 6.58, '0001': 3.89, '0010': 2.49, '0100': 2.09, '1000': 1.2, '1001': 4.7, '0011': 5.3, '1100': 3.2, '0110': 3.9, '1010': 3.43, '0101': 4.75, '1011': 5.601, '1101': 5.4, '0000': 0.0}
+Number of samples in spiking_train_ds: 20000
+Number of samples in spiking_test_ds: 20000
+ReadMap(
+  (fc): Linear(in_features=1024, out_features=10, bias=True)
+)
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+├─Linear: 1-1                            10,250
+=================================================================
+Total params: 10,250
+Trainable params: 10,250
+Non-trainable params: 0
+=================================================================
+Epoch 1, loss: 2.0474235249784427, train acc: 43.97%, test loss: 1.9116023192390466, test acc: 57.71%
+Epoch 2, loss: 1.9233103602077253, train acc: 56.44%, test loss: 1.8600365026309467, test acc: 62.69%
+Epoch 3, loss: 1.8802847386168215, train acc: 60.195%, test loss: 1.8205550806210065, test acc: 65.845%
+Epoch 4, loss: 1.8472435272539767, train acc: 63.85%, test loss: 1.800413698434068, test acc: 68.015%
+Epoch 5, loss: 1.8323235100450608, train acc: 65.075%, test loss: 1.794782749761027, test acc: 68.865%
+Epoch 6, loss: 1.8158905292852237, train acc: 66.71%, test loss: 1.7742444311087124, test acc: 70.68%
+Epoch 7, loss: 1.8045799995001894, train acc: 67.75%, test loss: 1.77042515552082, test acc: 70.595%
+Epoch 8, loss: 1.8004161713603206, train acc: 67.95%, test loss: 1.768470362352487, test acc: 70.905%
+Epoch 9, loss: 1.7939504404037525, train acc: 68.505%, test loss: 1.764324977375067, test acc: 71.565%
+Epoch 10, loss: 1.7900709405112951, train acc: 68.76%, test loss: 1.7753567345226153, test acc: 70.085%
+Epoch 11, loss: 1.7846030286325814, train acc: 69.315%, test loss: 1.7576587748603698, test acc: 72.18%
+Epoch 12, loss: 1.7792768573608642, train acc: 69.8%, test loss: 1.7427102811039445, test acc: 73.465%
+Epoch 13, loss: 1.775578869798313, train acc: 70.09%, test loss: 1.7436412481454233, test acc: 73.175%
+Epoch 14, loss: 1.772549787268471, train acc: 70.32%, test loss: 1.7452301202109828, test acc: 73.005%
+Epoch 15, loss: 1.7708974817690377, train acc: 70.45%, test loss: 1.737504470081756, test acc: 73.405%
+Epoch 16, loss: 1.7659774321717576, train acc: 70.91%, test loss: 1.7389463258627504, test acc: 73.49%
+Epoch 17, loss: 1.764742490963433, train acc: 71.015%, test loss: 1.7370540714873293, test acc: 73.46%
+Epoch 18, loss: 1.763461800429006, train acc: 71.025%, test loss: 1.7308032558368036, test acc: 74.02%
+Epoch 19, loss: 1.7610933335063557, train acc: 71.22%, test loss: 1.7332282843300328, test acc: 73.76%
+Epoch 20, loss: 1.7604177912203267, train acc: 71.2%, test loss: 1.7275906785989341, test acc: 74.275%
+Epoch 21, loss: 1.7574030751237473, train acc: 71.525%, test loss: 1.7295318845742809, test acc: 74.255%
+Epoch 22, loss: 1.7207514356119564, train acc: 75.465%, test loss: 1.6740653160661936, test acc: 80.405%
+Epoch 23, loss: 1.7063430715292787, train acc: 76.88%, test loss: 1.664322427667368, test acc: 81.19%
+Epoch 24, loss: 1.7013606373875285, train acc: 77.4%, test loss: 1.6556873736670985, test acc: 81.805%
+Epoch 25, loss: 1.6929636211060106, train acc: 78.12%, test loss: 1.6563945917275766, test acc: 82.04%
+Epoch 26, loss: 1.6880248503182262, train acc: 78.515%, test loss: 1.6413774520825273, test acc: 83.36%
+Epoch 27, loss: 1.686840287031838, train acc: 78.725%, test loss: 1.6439176093275174, test acc: 83.03%
+Epoch 28, loss: 1.6808425287088267, train acc: 79.28%, test loss: 1.6373354002309684, test acc: 83.49%
+Epoch 29, loss: 1.6832389938183867, train acc: 78.94%, test loss: 1.641771995221464, test acc: 83.075%
+Epoch 30, loss: 1.6800697207831727, train acc: 79.275%, test loss: 1.6361226559447024, test acc: 83.67%
+Epoch 31, loss: 1.6792042240167198, train acc: 79.34%, test loss: 1.6441922530579491, test acc: 83.075%
+Epoch 32, loss: 1.67804480665408, train acc: 79.505%, test loss: 1.6367879100500966, test acc: 83.465%
+Epoch 33, loss: 1.673359282862264, train acc: 79.845%, test loss: 1.6393466951748052, test acc: 83.385%
+Epoch 34, loss: 1.6702525379558721, train acc: 80.185%, test loss: 1.6340421114485866, test acc: 83.735%
+Epoch 35, loss: 1.6723797309893769, train acc: 80.085%, test loss: 1.631958275557326, test acc: 83.85%
+Epoch 36, loss: 1.6726255489233584, train acc: 79.755%, test loss: 1.6319731359664624, test acc: 83.815%
+Epoch 37, loss: 1.6729352306634093, train acc: 79.835%, test loss: 1.634017737147907, test acc: 83.655%
+Epoch 38, loss: 1.6703845750028714, train acc: 80.07%, test loss: 1.632928401517411, test acc: 83.725%
+Epoch 39, loss: 1.66985385372235, train acc: 80.12%, test loss: 1.6348708936581597, test acc: 83.63%
+Epoch 40, loss: 1.6682535882194203, train acc: 80.245%, test loss: 1.6325326384827732, test acc: 83.705%
+Epoch 41, loss: 1.6712759405660171, train acc: 80.065%, test loss: 1.6320711397134458, test acc: 83.75%
+Epoch 42, loss: 1.6679260235624953, train acc: 80.245%, test loss: 1.6327914441355502, test acc: 83.57%
+Epoch 43, loss: 1.667995223983789, train acc: 80.32%, test loss: 1.629645856043782, test acc: 83.935%
+Epoch 44, loss: 1.6674020579828621, train acc: 80.36%, test loss: 1.6287805637993371, test acc: 83.865%
+Epoch 45, loss: 1.6665695391523951, train acc: 80.315%, test loss: 1.6274702693707646, test acc: 83.985%
+Epoch 46, loss: 1.664550940068766, train acc: 80.455%, test loss: 1.6305697657429754, test acc: 83.88%
+Epoch 47, loss: 1.6661502263797359, train acc: 80.48%, test loss: 1.630841751068164, test acc: 83.785%
+Epoch 48, loss: 1.6638535379220882, train acc: 80.55%, test loss: 1.6277703675218285, test acc: 84.075%
+Epoch 49, loss: 1.662594121865952, train acc: 80.7%, test loss: 1.6277083946873967, test acc: 83.92%
+Epoch 50, loss: 1.66390930806486, train acc: 80.525%, test loss: 1.627370077961931, test acc: 84.06%
+Epoch 51, loss: 1.6639363605755206, train acc: 80.525%, test loss: 1.626156037988754, test acc: 84.1%
+Epoch 52, loss: 1.6632534315030034, train acc: 80.525%, test loss: 1.6319157254581633, test acc: 83.67%
+Epoch 53, loss: 1.6631190213151634, train acc: 80.67%, test loss: 1.6303774305045033, test acc: 83.79%
+Epoch 54, loss: 1.6590914196861437, train acc: 81.025%, test loss: 1.631927616299151, test acc: 83.57%
+Epoch 55, loss: 1.6638709676151457, train acc: 80.41%, test loss: 1.6300539837096826, test acc: 83.865%
+Epoch 56, loss: 1.662659003711737, train acc: 80.465%, test loss: 1.6256460918786046, test acc: 84.105%
+Epoch 57, loss: 1.663493491209353, train acc: 80.455%, test loss: 1.6264451635531343, test acc: 84.06%
+Epoch 58, loss: 1.65951476615077, train acc: 80.91%, test loss: 1.6283936066368518, test acc: 83.98%
+Epoch 59, loss: 1.661273306551071, train acc: 80.625%, test loss: 1.6272189967548505, test acc: 84.04%
+Epoch 60, loss: 1.6608977565369285, train acc: 80.805%, test loss: 1.6274974464227596, test acc: 83.96%
+Epoch 61, loss: 1.6568702326034204, train acc: 81.17%, test loss: 1.6272864665467137, test acc: 83.965%
+Epoch 62, loss: 1.6606975828115933, train acc: 80.75%, test loss: 1.6255570444436118, test acc: 84.12%
+Epoch 63, loss: 1.6594817562225146, train acc: 80.905%, test loss: 1.6272121107997224, test acc: 83.975%
+Epoch 64, loss: 1.65709012842026, train acc: 81.145%, test loss: 1.6300392642188757, test acc: 83.675%
+Epoch 65, loss: 1.6566214054918136, train acc: 81.105%, test loss: 1.6277348153507367, test acc: 83.815%
+Epoch 66, loss: 1.6590688879878377, train acc: 80.83%, test loss: 1.6290966577042405, test acc: 83.83%
+Epoch 67, loss: 1.655980462845141, train acc: 81.15%, test loss: 1.6265498201687114, test acc: 83.905%
+Epoch 68, loss: 1.6597582665495216, train acc: 80.77%, test loss: 1.6269137131901215, test acc: 83.925%
+Epoch 69, loss: 1.6576397262823086, train acc: 80.99%, test loss: 1.633337418492229, test acc: 83.67%
+Epoch 70, loss: 1.6568278847411038, train acc: 81.085%, test loss: 1.6346628593560606, test acc: 83.21%
+Epoch 71, loss: 1.6574708866996888, train acc: 81.02%, test loss: 1.624642760989765, test acc: 84.08%
+Epoch 72, loss: 1.65672068550183, train acc: 81.01%, test loss: 1.6278328628966603, test acc: 83.94%
+Epoch 73, loss: 1.6557898738513739, train acc: 81.07%, test loss: 1.6269146051650611, test acc: 83.83%
+Epoch 74, loss: 1.6574360562589603, train acc: 80.995%, test loss: 1.6289311662649575, test acc: 83.795%
+Epoch 75, loss: 1.6584951199662572, train acc: 80.81%, test loss: 1.626356648560911, test acc: 83.915%
+Epoch 76, loss: 1.6550274573195094, train acc: 81.205%, test loss: 1.6249991956229408, test acc: 84.11%
+Epoch 77, loss: 1.658105392425586, train acc: 80.885%, test loss: 1.6244263153868361, test acc: 84.125%
+Epoch 78, loss: 1.6565073724752797, train acc: 81.04%, test loss: 1.6265462987339154, test acc: 83.945%
+Epoch 79, loss: 1.6544601273612853, train acc: 81.22%, test loss: 1.625883216294237, test acc: 84.005%
+Epoch 80, loss: 1.6535944066489467, train acc: 81.325%, test loss: 1.6253717330317148, test acc: 84.075%
+Epoch 81, loss: 1.6527800099156535, train acc: 81.43%, test loss: 1.6274234105984624, test acc: 83.965%
+Epoch 82, loss: 1.6575351123230906, train acc: 80.885%, test loss: 1.624789492390788, test acc: 84.13%
+Epoch 83, loss: 1.6539525212571262, train acc: 81.28%, test loss: 1.6233161436483121, test acc: 84.16%
+Epoch 84, loss: 1.6536907852648166, train acc: 81.33%, test loss: 1.6301747111085885, test acc: 83.58%
+Epoch 85, loss: 1.6549773772303669, train acc: 81.23%, test loss: 1.6254271322165053, test acc: 83.895%
+Epoch 86, loss: 1.653199964818863, train acc: 81.405%, test loss: 1.6288891672707213, test acc: 83.605%
+Epoch 87, loss: 1.6521128438913022, train acc: 81.49%, test loss: 1.6261165008758203, test acc: 83.925%
+Epoch 88, loss: 1.6578154312535978, train acc: 80.81%, test loss: 1.625116898228947, test acc: 84.025%
+Epoch 89, loss: 1.652760889202642, train acc: 81.445%, test loss: 1.6238211218160563, test acc: 84.205%
+Epoch 90, loss: 1.653871723638175, train acc: 81.22%, test loss: 1.6221944485990385, test acc: 84.205%
+Epoch 91, loss: 1.6524788624943254, train acc: 81.38%, test loss: 1.625216889686097, test acc: 83.945%
+Epoch 92, loss: 1.6547180368496588, train acc: 81.13%, test loss: 1.6238492826303355, test acc: 84.065%
+Epoch 93, loss: 1.651040956616021, train acc: 81.52%, test loss: 1.626627105493515, test acc: 83.96%
+Epoch 94, loss: 1.6538940207265056, train acc: 81.2%, test loss: 1.6231376256424779, test acc: 84.32%
+Epoch 95, loss: 1.65352816284655, train acc: 81.24%, test loss: 1.6283152529987663, test acc: 83.735%
+Epoch 96, loss: 1.6526724854216408, train acc: 81.35%, test loss: 1.626289742823226, test acc: 83.98%
+Epoch 97, loss: 1.653301926847464, train acc: 81.315%, test loss: 1.6226370616461903, test acc: 84.265%
+Epoch 98, loss: 1.6497070838849004, train acc: 81.595%, test loss: 1.6249575371178575, test acc: 84.04%
+Epoch 99, loss: 1.653252164014993, train acc: 81.31%, test loss: 1.624406798959921, test acc: 83.94%
+Epoch 100, loss: 1.651397073992525, train acc: 81.5%, test loss: 1.62612206105607, test acc: 83.96%
