@@ -86,6 +86,10 @@ checkpoints_directory = "./checkpoints"
 if not os.path.exists(checkpoints_directory):
     os.makedirs(checkpoints_directory)
 
+checkpoints_directory = "./figures"
+if not os.path.exists(checkpoints_directory):
+    os.makedirs(checkpoints_directory)
+
 
 tmp_ds = ImageFolder(DATA_ROOT / '00')
 CLASSES_NAME = tmp_ds.classes
